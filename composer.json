@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/laravel-cashier",
+    "description": "Tyhp type definitions for laravel/cashier 16.8.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "16.8.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/laravel-cashier-impl": "~16.8.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/laravel-cashier-impl"
+        }
+    }
+}
